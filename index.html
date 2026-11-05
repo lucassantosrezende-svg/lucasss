@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combate ao Desperdício de Alimentos</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f8f2;
+            color: #26352c;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #174d35, #3a9360);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 35px;
+            margin: 15px 0;
+        }
+
+        header p {
+            font-size: 17px;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1100px;
+            margin: 35px auto;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .personas {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border-top: 5px solid #24734b;
+        }
+
+        .professora {
+            border-top-color: #e8a83e;
+        }
+
+        .card h2 {
+            color: #24734b;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #24734b;
+            margin-top: 15px;
+        }
+
+        .professora h3 {
+            color: #9b6814;
+        }
+
+        .card p {
+            margin-bottom: 8px;
+        }
+
+        .emoji {
+            font-size: 35px;
+        }
+
+        .frase {
+            background: #e8f5e9;
+            padding: 15px;
+            border-left: 4px solid #24734b;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-style: italic;
+        }
+
+        .secao {
+            background: white;
+            padding: 25px;
+            margin-top: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+        }
+
+        .secao h2 {
+            color: #24734b;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .conclusao {
+            background: #183b2b;
+            color: white;
+            padding: 30px;
+            margin-top: 25px;
+            border-radius: 15px;
+        }
+
+        .conclusao h2 {
+            margin-bottom: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #647268;
+        }
+
+        @media (max-width: 700px) {
+            .personas {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 27px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌱 Combate ao Desperdício de Alimentos</h1>
+        <p>Conheça as personas e entenda o problema do desperdício alimentar.</p>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <h2>Conheça nossas personas</h2>
+            <p>
+                Duas pessoas importantes na conscientização
+                sobre o desperdício de alimentos na escola.
+            </p>
+        </section>
+
+        <section class="personas">
+
+            <!-- PERSONA DO ALUNO -->
+            <div class="card">
+                <div class="emoji">👨‍🎓</div>
+                <h2>Lucas Oliveira</h2>
+                <p><strong>Idade:</strong> 16 anos</p>
+                <p><strong>Ocupação:</strong> Estudante do Ensino Médio</p>
+
+                <h3>Perfil</h3>
+                <p>Comunicativo, gosta de praticidade e costuma fazer suas refeições na escola.</p>
+
+                <h3>Objetivo</h3>
+                <p>Evitar o desperdício de alimentos na escola e em casa.</p>
+
+                <h3>Dificuldade</h3>
+                <p>Às vezes coloca mais comida no prato do que consegue comer.</p>
+
+                <h3>Comportamento</h3>
+                <p>Nem sempre pensa na quantidade de comida que desperdiça.</p>
+
+                <h3>Motivação</h3>
+                <p>Ajudar o meio ambiente e conscientizar os colegas.</p>
+
+                <h3>Necessidade</h3>
+                <p>Aprender sobre o impacto do desperdício de alimentos.</p>
+
+                <div class="frase">
+                    "Se eu pegar só o que vou comer,
+                    posso ajudar a evitar o desperdício."
+                </div>
+            </div>
+
+            <!-- PERSONA DA PROFESSORA -->
+            <div class="card professora">
+                <div class="emoji">👩‍🏫</div>
+                <h2>Mariana Santos</h2>
+                <p><strong>Idade:</strong> 38 anos</p>
+                <p><strong>Ocupação:</strong> Professora de Ciências</p>
+
+                <h3>Perfil</h3>
+                <p>Educadora dedicada, preocupada com o meio ambiente e com a formação dos alunos.</p>
+
+                <h3>Objetivo</h3>
+                <p>Conscientizar os alunos sobre o desperdício de alimentos.</p>
+
+                <h3>Dificuldade</h3>
+                <p>Fazer com que os estudantes mudem seus hábitos alimentares.</p>
+
+                <h3>Comportamento</h3>
+                <p>Desenvolve atividades educativas e projetos ambientais.</p>
+
+                <h3>Motivação</h3>
+                <p>Ensinar a importância do consumo consciente e da sustentabilidade.</p>
+
+                <h3>Necessidade</h3>
+                <p>Ter ferramentas e atividades práticas para ensinar sobre o tema.</p>
+            </div>
+
+        </section>
+
+        <!-- TENTATIVAS ANTERIORES -->
+        <section class="secao">
+            <h2>O que já tentaram fazer?</h2>
+
+            <h3>👨‍🎓 Para ajudar os alunos</h3>
+            <ul>
+                <li>Colocar cartazes de conscientização na escola.</li>
+                <li>Orientar os alunos a pegar somente a comida que vão consumir.</li>
+                <li>Realizar campanhas contra o desperdício.</li>
+                <li>Incentivar o aproveitamento dos alimentos em casa.</li>
+            </ul>
+
+            <h3>👩‍🏫 Na visão da professora</h3>
+            <ul>
+                <li>Realizar palestras sobre sustentabilidade.</li>
+                <li>Propor pesquisas e trabalhos escolares.</li>
+                <li>Desenvolver projetos ambientais.</li>
+                <li>Conversar com os alunos sobre consumo consciente.</li>
+            </ul>
+        </section>
+
+        <!-- POR QUE NÃO FUNCIONOU -->
+        <section class="secao">
+            <h2>Por que não funcionou?</h2>
+
+            <ul>
+                <li>Muitos alunos não prestam atenção aos cartazes.</li>
+                <li>As campanhas acontecem por pouco tempo.</li>
+                <li>As atividades são muito teóricas e pouco práticas.</li>
+                <li>Nem todos os estudantes participam das ações.</li>
+                <li>Falta acompanhamento dos resultados.</li>
+                <li>Os hábitos dos alunos são difíceis de mudar.</li>
+            </ul>
+        </section>
+
+        <!-- CONCLUSÃO -->
+        <section class="conclusao">
+            <h2>💡 Como podemos melhorar?</h2>
+
+            <p>
+                É necessário criar ações práticas, divertidas e contínuas,
+                com a participação dos alunos. Podemos desenvolver desafios
+                para reduzir restos de comida nos pratos, acompanhar o
+                desperdício no refeitório e realizar atividades educativas.
+                Pequenas atitudes podem fazer uma grande diferença
+                para o meio ambiente!
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>🌱 Projeto escolar - Consumo consciente e sustentabilidade</p>
+    </footer>
+
+</body>
+</html>
